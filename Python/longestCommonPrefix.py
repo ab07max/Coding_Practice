@@ -17,6 +17,7 @@ class longestCommonPrefix:
                 if count == len(dup):
                     maxCharacterMatching = j[:i]
         return maxCharacterMatching
+
 if __name__ == '__main__':
     wordList = ['flower','flow','flight']
     obj = longestCommonPrefix()
